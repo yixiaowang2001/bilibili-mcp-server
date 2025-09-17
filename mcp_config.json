@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "bilibili": {
+      "command": "python",
+      "args": ["/your-project-path/bilibili-mcp-server/bilibili_mcp_server.py"],
+      "env": {}
+    }
+  }
+}
+
