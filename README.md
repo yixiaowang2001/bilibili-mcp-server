@@ -6,10 +6,12 @@
 
 - **search_videos**: 搜索视频，支持关键词搜索，可指定返回数量和方法（API/网页抓取）
 - **search_articles**: 搜索专栏文章，使用网页抓取方式获取真实数据
-- **get_video_info**: 获取视频详细信息，包括统计数据、UP主信息、标签等
+- **get_video_info**: 获取视频详细信息，包括统计数据、UP主信息、标签等（API/网页抓取）
 - **get_danmaku**: 获取视频弹幕信息，返回XML格式数据
 - **get_comments**: 获取视频评论，支持嵌套回复和数量控制（需要cookies）
 - **get_article**: 获取专栏文章详细内容和相关数据
+
+如果API获取失败，可以使用脚本方法（`method = "script"`)尝试获取。
 
 ## 环境要求
 
