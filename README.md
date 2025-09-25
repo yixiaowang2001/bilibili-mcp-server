@@ -2,6 +2,10 @@
 
 基于[bilibili-api](https://github.com/nemo2011/bilibili-api)和Playwright的B站MCP Server，关注于数据获取，支持多种相关操作。
 
+## Demo with Cursor
+
+![demo_with_cursor](demo.gif)
+
 ## 工具列表
 
 - **search_videos**: 搜索视频，支持关键词搜索，可指定返回数量和方法（API/网页抓取）

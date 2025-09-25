@@ -3,7 +3,8 @@
     "bilibili": {
       "command": "python",
       "args": ["/your-project-path/bilibili-mcp-server/bilibili_mcp_server.py"],
-      "env": {}
+      "env": {},
+      "description": "基于bilibili-api和Playwright的B站MCP服务器，提供视频搜索、专栏文章搜索、视频信息获取、弹幕获取、评论获取等功能。支持API和网页抓取两种方式获取数据，适用于B站内容分析和数据获取场景。"
     }
   }
 }
